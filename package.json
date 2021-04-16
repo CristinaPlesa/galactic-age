@@ -1,7 +1,7 @@
 {
-  "name": "shape-tracker",
+  "name": "galactic-age",
   "version": "1.0.0",
-  "description": "",
+  "description": "Galactic age calculator",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
