@@ -17,6 +17,10 @@ export default class SpaceTraveller {
     return Math.round(this.age / 1.88);
   }
 
+  checkJupiterAge() {
+    
+  }
+
   // checkPlanetAge() {
   //   const planetAges = [];
 
