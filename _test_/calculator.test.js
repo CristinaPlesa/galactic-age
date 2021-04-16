@@ -18,7 +18,7 @@ describe('User', () => {
   });
   test('should correctly take age value and return age in Mercury years', () => {
     traveller.age = 62;
-    expect(traveller.checkMercuryAge()).toEqual(125);
+    expect(traveller.checkMercuryAge()).toEqual(258);
   });
 
 });
