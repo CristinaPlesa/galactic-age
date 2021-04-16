@@ -21,7 +21,9 @@ export default class SpaceTraveller {
     return Math.round(this.age / 11.86);
   }
 
-
+  birthYearExpectancy() {
+    
+  }
 
 }
 
