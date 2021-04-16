@@ -29,4 +29,5 @@ describe('User', () => {
   test('should correctly take Earth age value and return rounded Jupiter age', () => {
   expect(traveller.checkJupiterAge()).toEqual(3);
   });
+  test('should correctly ')
 });
