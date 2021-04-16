@@ -1,11 +1,11 @@
 export default class Calculator {
-  constructor(userName, age) {
+  constructor(userName, age, yearOfBirth) {
     this.userName = userName;
     this.age = age;
+    this.yearOfBirth = yearOfBirth;
   }
 }
 
-// this.yearOfBirth = yearOfBirth;
 
 // this.age = 25 * 365 for earth age = 9125 days (example)
 // must convert someone's age to mercury, venus, mars, and jupiter years.
