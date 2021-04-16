@@ -6,7 +6,7 @@ export default class SpaceTraveller {
   }
 
   checkMercuryAge() {
-    
+    return this.age / 0.24
   }
 
   // checkPlanetAge() {
