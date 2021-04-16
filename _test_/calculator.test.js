@@ -23,4 +23,7 @@ describe('User', () => {
   test('should correctly take Earth age value and return rounded Venus age', () => {
   expect(traveller.checkVenusAge()).toEqual(48);
   });
+  test('should correctly take Earth age value and return rounded Mars age', () => {
+  expect(traveller.checkMarsAge()).toEqual(16);
+  });
 });
