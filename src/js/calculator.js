@@ -13,6 +13,10 @@ export default class SpaceTraveller {
     return Math.round(this.age / 0.62);
   }
 
+  checkMarsAge() {
+    
+  }
+
   // checkPlanetAge() {
   //   const planetAges = [];
 
