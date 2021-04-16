@@ -20,5 +20,7 @@ describe('User', () => {
     traveller.age = 62;
     expect(traveller.checkMercuryAge()).toEqual(258);
   });
-
+  test('should correctly take Earth age value and return rounded Venus age', () => {
+  expect(traveller.checkVenusAge()).toEqual(48);
+  });
 });

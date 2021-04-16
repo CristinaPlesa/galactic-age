@@ -9,6 +9,10 @@ export default class SpaceTraveller {
     return Math.round(this.age / 0.24);
   }
 
+  checkVenusAge() {
+    
+  }
+
   // checkPlanetAge() {
   //   const planetAges = [];
 
