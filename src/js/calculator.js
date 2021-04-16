@@ -14,7 +14,7 @@ export default class SpaceTraveller {
   }
 
   checkMarsAge() {
-    
+    return Math.round(this.age / 1.88);
   }
 
   // checkPlanetAge() {
