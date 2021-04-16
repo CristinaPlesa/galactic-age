@@ -1,18 +1,21 @@
-import Calculator from './../src/js/calculator';
+import SpaceTraveller from './../src/js/calculator';
 
-describe('Calculator', () => {
+describe('User', () => {
+  let traveller;
 
-  test('should correctly create a calculator object with name value', () => {
-  const calculator = new Calculator("name");
-  expect (calculator.userName).toEqual("name");
+  beforeEach(() => {
+    traveller = new SpaceTraveller("name", 30, 1991)
+  });
+
+  test('should correctly create a SpaceTraveller object with name value', () => {
+  expect (traveller.userName).toEqual("name");
   });
   test('should correctly create a calculator object with age value', () => {
-    const calculator = new Calculator("name",25);
-    expect (calculator.age).toEqual(25);
+    expect (traveller.age).toEqual(30);
   });
-  test('should correctly create a calculator object with age value', () => {
-    const calculator = new Calculator("name",25, 1950);
-    expect (calculator.yearOfBirth).toEqual(1950);
+  test('should correctly create a calculator object with yearOfBirth value', () => {
+    expect (traveller.yearOfBirth).toEqual(1991);
   });
+  test
 
 });

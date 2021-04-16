@@ -1,8 +1,12 @@
-export default class Calculator {
+export default class SpaceTraveller {
   constructor(userName, age, yearOfBirth) {
     this.userName = userName;
     this.age = age;
     this.yearOfBirth = yearOfBirth;
+  }
+
+  checkPlanetAge() {
+
   }
 }
 
