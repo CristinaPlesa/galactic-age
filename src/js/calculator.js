@@ -5,6 +5,8 @@ export default class Calculator {
   }
 }
 
+// this.yearOfBirth = yearOfBirth;
+
 // this.age = 25 * 365 for earth age = 9125 days (example)
 // must convert someone's age to mercury, venus, mars, and jupiter years.
 // think of age as an empty array with which each kind of planet current age is calculated. then have loop go through each array index (planet current age) and calculate their life expectancy based on inputted age and date of birth? how is that done?. 
