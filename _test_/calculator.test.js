@@ -29,5 +29,7 @@ describe('User', () => {
   test('should correctly take Earth age value and return rounded Jupiter age', () => {
   expect(traveller.checkJupiterAge()).toEqual(3);
   });
-  test('should correctly ')
+  test('should correctly take year of birth and set life expectancy to 23 years if before 18', () => {
+  expect(traveller.birthYearExpectancy()).toEqual(26);
+  });
 });
