@@ -10,7 +10,7 @@ export default class SpaceTraveller {
   }
 
   checkVenusAge() {
-    
+    return Math.round(this.age / 0.62);
   }
 
   // checkPlanetAge() {
