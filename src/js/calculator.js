@@ -5,9 +5,14 @@ export default class SpaceTraveller {
     this.yearOfBirth = yearOfBirth;
   }
 
-  checkPlanetAge() {
-
+  checkMercuryAge() {
+    
   }
+
+  // checkPlanetAge() {
+  //   const planetAges = [];
+
+  // }
 }
 
 
