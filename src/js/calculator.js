@@ -22,10 +22,12 @@ export default class SpaceTraveller {
   }
 
   birthYearExpectancy() {
-    
+    if(this.yearOfBirth <= 1860) {
+      return 26
+   } //else if(this.yearOfBirth <= )
   }
-
 }
+
 
 // life expectancy so far is based on birth year, make it go far back.
 // choose a fantasy species to determine additional life expectancy: none 0, alien 555, wizard 137, Skeksis 1000, gelfling 200, elf 300, 

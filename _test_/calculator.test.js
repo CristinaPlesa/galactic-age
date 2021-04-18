@@ -21,15 +21,20 @@ describe('User', () => {
     expect(traveller.checkMercuryAge()).toEqual(258);
   });
   test('should correctly take Earth age value and return rounded Venus age', () => {
-  expect(traveller.checkVenusAge()).toEqual(48);
+    expect(traveller.checkVenusAge()).toEqual(48);
   });
   test('should correctly take Earth age value and return rounded Mars age', () => {
-  expect(traveller.checkMarsAge()).toEqual(16);
+    expect(traveller.checkMarsAge()).toEqual(16);
   });
   test('should correctly take Earth age value and return rounded Jupiter age', () => {
-  expect(traveller.checkJupiterAge()).toEqual(3);
+    expect(traveller.checkJupiterAge()).toEqual(3);
   });
-  test('should correctly take year of birth and set life expectancy to 23 years if before 1860', () => {
-  expect(traveller.birthYearExpectancy()).toEqual(26);
+  test('should correctly take year of birth and set life expectancy to 26 years if before 1860', () => {
+    traveller.yearOfBirth = 1860
+    expect(traveller.birthYearExpectancy()).toEqual(26);
   });
+  test('should correctly take year of birth and set life expectancy to 29 years if before 1870', () => {
+    traveller.yearOfBirth = 1870
+    expect(traveller.birthYearExpectancy()).toEqual(29);
+  })
 });
