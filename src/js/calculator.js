@@ -24,7 +24,9 @@ export default class SpaceTraveller {
   birthYearExpectancy() {
     if(this.yearOfBirth <= 1860) {
       return 26
-   } //else if(this.yearOfBirth <= )
+   } else if(this.yearOfBirth <= 1870) {
+      return 29
+   }
   }
 }
 
