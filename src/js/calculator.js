@@ -35,7 +35,7 @@ export default class SpaceTraveller {
    } else if(this.yearOfBirth <= 1910) {
       return 51
    } else if(this.yearOfBirth <= 1920) {
-     
+      return 53
    }
   }
 }
