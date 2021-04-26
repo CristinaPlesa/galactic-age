@@ -37,18 +37,20 @@ export default class SpaceTraveller {
    } else if(this.yearOfBirth <= 1920) {
       return 53
    } else if(this.yearOfBirth <= 1930) {
-     return 54
+      return 54
    } else if(this.yearOfBirth <= 1940) {
-     return 56
+      return 56
    } else if(this.yearOfBirth <= 1950) {
-    return 59
+      return 59
    } else if(this.yearOfBirth <= 1960) {
-    return 61
+      return 61
    } else if(this.yearOfBirth <= 1970) {
-    return 63
+      return 63
    } else if(this.yearOfBirth <= 1980) {
-    return 67
-   } 
+      return 67
+   } else if(this.yearOfBirth <= 1990) {
+      return 72
+   }
   }
 }
 
