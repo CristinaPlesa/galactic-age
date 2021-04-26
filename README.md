@@ -1,7 +1,7 @@
 # Galactic Age Calculator
 
-#### _{Brief description of application}_
-
+#### Application that takes user's age and birth year and returns their age and life expectancy on various Milky Way planets.
+ 
 #### By Cristina Plesa
 
 ## Technologies Used
@@ -12,7 +12,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This application utilizes Test Driven Development to test function capability and accuracy.
 
 ## Setup and Use
 
