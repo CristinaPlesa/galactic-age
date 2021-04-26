@@ -65,8 +65,11 @@ export default class SpaceTraveller {
     const birthYear = this.birthYearExpectancy()
     if(birthYear > this.age) {
       let thereIsStillTime = birthYear - this.age;
-      return thereIsStillTime
-    } 
+      return ('You still have ' + thereIsStillTime + ' years left to live!')
+    } else {
+      let lucky = this.age - birthYear;
+      return ('You have surpassed your life expectancy by ' + lucky + ' years!')
+    }
   }
 }
 

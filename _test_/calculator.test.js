@@ -102,10 +102,10 @@ describe('User', () => {
     expect(traveller.birthYearExpectancy()).toEqual(90);
   });
   test(`should correctly return a user's life expectancy on at age 30 with birth year 1991`, () => {
-    expect(traveller.getLifeExpectancy()).toEqual(45);
+    expect(traveller.getLifeExpectancy()).toEqual('You still have 45 years left to live!');
   });
   test(`should correctly return a user's life expectancy on at age 30 with birth year 1991`, () => {
     traveller.yearOfBirth = 1860
-    expect(traveller.getLifeExpectancy()).toEqual(4);
+    expect(traveller.getLifeExpectancy()).toEqual('You have surpassed your life expectancy by 4 years!');
   });
 });
