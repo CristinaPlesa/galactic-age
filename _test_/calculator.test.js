@@ -77,5 +77,8 @@ describe('User', () => {
     traveller.yearOfBirth = 1970
     expect(traveller.birthYearExpectancy()).toEqual(63);
   });
-
+  test(`should correctly take year of birth and set life expectancy to 67 years if before 1980`, () => {
+    traveller.yearOfBirth = 1980
+    expect(traveller.birthYearExpectancy()).toEqual(67);
+  });
 });
