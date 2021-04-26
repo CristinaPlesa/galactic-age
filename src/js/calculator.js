@@ -62,7 +62,11 @@ export default class SpaceTraveller {
   }
 
   getLifeExpectancy() {
- 
+    const birthYear = this.birthYearExpectancy()
+    if(birthYear > this.age) {
+      let thereIsStillTime = birthYear - this.age;
+      return thereIsStillTime
+    } 
   }
 }
 
