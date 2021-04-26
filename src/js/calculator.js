@@ -60,6 +60,10 @@ export default class SpaceTraveller {
       return 90
    }
   }
+
+  getLifeExpectancy() {
+ 
+  }
 }
 
 
